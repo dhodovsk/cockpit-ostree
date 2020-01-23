@@ -1,8 +1,4 @@
 specfile_path: cockpit-ostree.spec
-synced_files:
-  - cockpit-ostree.spec
-upstream_project_name: cockpit-ostree
-downstream_package_name: cockpit-ostree
 actions:
   post-upstream-clone: make cockpit-ostree.spec
   create-archive:
@@ -12,8 +8,5 @@ jobs:
 - job: copr_build
   metadata:
     targets:
-    - fedora-29-x86_64
-    - fedora-30-x86_64
-    - fedora-31-x86_64
-    - fedora-rawhide-x86_64
+    - fedora-all-x86_64
   trigger: pull_request
