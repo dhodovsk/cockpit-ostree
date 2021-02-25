@@ -1,14 +1,14 @@
 {
-    "version": "170",
     "name": "updates",
     "requires": {
         "cockpit": "125"
     },
 
     "tools": {
-        "ostree": {
-            "label": "Software Updates",
-            "path": "index.html"
+        "index": {
+            "label": "Software Updates"
         }
-    }
+    },
+
+    "preload": [ "index" ]
 }

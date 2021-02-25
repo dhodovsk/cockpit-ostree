@@ -35,6 +35,33 @@ ln -s `pwd`/dist ~/.local/share/cockpit/ostree
 After changing the code and running `make` again, reload the Cockpit page in
 your browser.
 
+You can also use
+[watch mode](https://webpack.js.org/guides/development/#using-watch-mode) to
+automatically update the webpack on every code change with
+
+    $ npm run watch
+
+or
+
+    $ make watch
+
+# Running eslint
+
+Cockpit Starter Kit uses [ESLint](https://eslint.org/) to automatically check
+JavaScript code style in `.js` and `.jsx` files.
+
+The linter is executed within every build as a webpack preloader.
+
+For developer convenience, the ESLint can be started explicitly by:
+
+    $ npm run eslint
+
+Violations of some rules can be fixed automatically by:
+
+    $ npm run eslint:fix
+
+Rules configuration can be found in the `.eslintrc.json` file.
+
 # Automated Testing
 
 Run `make check` to build an RPM, install it into a standard Cockpit test VM
@@ -68,6 +95,18 @@ Cockpit's CI infrastructure).
 starter-kit includes an example [cockpitous release script](./cockpituous-release)
 that builds an upstream release tarball and source RPM. Please see the above
 cockpituous documentation for details.
+
+Automatic releases are triggered through the [release.yml](.github/workflows/release.yml)
+[GitHub action](https://github.com/features/actions) workflow. This uses the
+[cockpit-project organization secrets](https://github.com/organizations/cockpit-project/settings/secrets).
+
+# Automated maintenance
+
+It is important to keep your [NPM modules](./package.json) up to date, to keep
+up with security updates and bug fixes. This is done with the
+[npm-update bot script](https://github.com/cockpit-project/bots/blob/master/npm-update)
+which is run weekly or upon [manual request](https://github.com/cockpit-project/cockpit-ostree/actions) through the
+[npm-update.yml](.github/workflows/npm-update.yml) [GitHub action](https://github.com/features/actions).
 
 # Further reading
 

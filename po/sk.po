@@ -1,42 +1,48 @@
-# Mikel Olasagasti Uranga <mikel@olasagasti.info>, 2018. #zanata
+# #-#-#-#-#  cockpit-ostree.js.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-19 17:50+0200\n"
-"PO-Revision-Date: 2018-03-15 07:47+0000\n"
-"Last-Translator: Mikel Olasagasti Uranga <mikel@olasagasti.info>\n"
-"Language-Team: Basque\n"
-"Language: eu\n"
+"POT-Creation-Date: 2020-01-31 09:54+0000\n"
+"PO-Revision-Date: 2020-02-01 04:56+0000\n"
+"Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
+"cockpit-ostree/master/sk/>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Zanata 4.4.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.10.3\n"
 
-#: src/client.js:484
+#: src/client.js:480
 msgid "$0 key ID"
 msgstr ""
 
-#: src/app.js:459
+#: src/app.js:455
 msgid "$0 package"
-msgstr ""
+msgstr "$0 balík"
 
-#: src/app.js:459
+#: src/app.js:455
 msgid "$0 packages"
-msgstr ""
+msgstr "$0 balíky"
 
 #: src/index.html:92
 msgid "- Add New Repository"
-msgstr ""
+msgstr "- Pridať nový repozitár"
 
 #: src/index.html:90
 msgid "Add"
-msgstr ""
+msgstr "Pridať"
 
 #: src/index.html:75
 msgid "Add Another Key"
-msgstr ""
+msgstr "Pridať ďalší kľúč"
 
 #: src/index.html:313 src/index.html:331
 msgid "Additions"
@@ -44,39 +50,39 @@ msgstr ""
 
 #: src/index.html:39
 msgid "Apply"
-msgstr ""
+msgstr "Použiť"
 
 #: src/index.html:255
 msgid "Available"
-msgstr "Eskuragarri"
+msgstr "Dostupný"
 
 #: src/index.html:68
 msgid "Begins with '-----BEGIN PGP PUBLIC KEY BLOCK-----'"
-msgstr ""
+msgstr "Začína textom '-----BEGIN PGP PUBLIC KEY BLOCK-----'"
 
 #: src/index.html:164
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 #: src/index.html:134
 msgid "Change Repository"
-msgstr ""
+msgstr "Zmeniť repozitár"
 
 #: src/index.html:210
 msgid "Check for Updates"
-msgstr ""
+msgstr "Skontrolovať aktualizácie"
 
-#: src/app.js:303
+#: src/app.js:299
 msgid "Checking for updates"
-msgstr ""
+msgstr "Kontrolovanie aktualizácií"
 
 #: src/index.html:418
 msgid "Connecting to OSTree"
-msgstr ""
+msgstr "Pripájam sa k OSTree"
 
 #: src/remotes.js:181
 msgid "Couldn't load settings for '$0': $1"
-msgstr ""
+msgstr "Nepodarilo sa načítať nastavenia pre '$0': $1"
 
 #: src/index.html:184
 msgid "Currently using:"
@@ -88,7 +94,7 @@ msgstr ""
 
 #: src/index.html:38
 msgid "Delete"
-msgstr ""
+msgstr "Zmazať"
 
 #: src/index.html:319 src/index.html:349
 msgid "Downgrades"
@@ -100,7 +106,7 @@ msgstr ""
 
 #: src/index.html:290
 msgid "Expired Signature"
-msgstr ""
+msgstr "Vypršaný podpis"
 
 #: src/index.html:258
 msgid "Failed"
@@ -108,59 +114,59 @@ msgstr ""
 
 #: src/index.html:289
 msgid "Good Signature"
-msgstr ""
+msgstr "Dobrý podpis"
 
 #: src/index.html:291
 msgid "Invalid Signature"
-msgstr ""
+msgstr "Nesprávny podpis"
 
 #: src/index.html:99
 msgid "Name"
-msgstr ""
+msgstr "Názov"
 
 #: src/index.html:420
 msgid "No Deployments"
-msgstr ""
+msgstr "Žiadne nasadenia"
 
-#: src/app.js:104
+#: src/app.js:101
 msgid "No OSTree deployments found"
-msgstr ""
+msgstr "Neboli nájdené žiadne nasadenia OSTee"
 
 #: src/remotes.js:112
 msgid "No configuration data found"
-msgstr ""
+msgstr "Neboli nájdené žiadne konfiguračné dáta"
 
 #: src/index.html:294
 msgid "No signature avaliable"
-msgstr ""
+msgstr "Žiadne dostupné podpisy"
 
-#: src/app.js:83
+#: src/app.js:80
 msgid "Not authorized to update software on this system"
 msgstr ""
 
-#: src/client.js:585 src/client.js:681
+#: src/client.js:581 src/client.js:677
 msgid "OS $0 not found"
 msgstr ""
 
-#: src/app.js:85
+#: src/app.js:82
 msgid "OSTree is not available on this system"
-msgstr ""
+msgstr "OSTree nie je dostupný na tomto systéme"
 
 #: src/index.html:301
 msgid "Operating System"
-msgstr ""
+msgstr "Operačný systém"
 
 #: src/index.html:375
 msgid "Operating System Updates"
-msgstr ""
+msgstr "Aktualizácie operačného systému"
 
 #: src/index.html:307
 msgid "Origin"
-msgstr ""
+msgstr "Pôvod"
 
 #: src/index.html:266
 msgid "Packages"
-msgstr ""
+msgstr "Balíky"
 
 #: src/remotes.js:261
 msgid "Please provide a valid URL"
@@ -188,11 +194,11 @@ msgstr ""
 
 #: src/index.html:423
 msgid "Reconnect"
-msgstr ""
+msgstr "Znovu pripojiť"
 
 #: src/index.html:305
 msgid "Released"
-msgstr ""
+msgstr "Vydaný"
 
 #: src/index.html:315 src/index.html:337
 msgid "Removals"
@@ -204,15 +210,15 @@ msgstr ""
 
 #: src/index.html:251
 msgid "Running"
-msgstr ""
+msgstr "Beží"
 
 #: src/client.js:66
 msgid "Scanning metadata"
-msgstr ""
+msgstr "Skenovanie metadát"
 
 #: src/index.html:267
 msgid "Signature"
-msgstr ""
+msgstr "Podpis"
 
 #: src/index.html:279
 msgid "Signed by"
@@ -224,7 +230,7 @@ msgstr ""
 
 #: src/index.html:288
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: src/index.html:327
 msgid ""
@@ -233,11 +239,11 @@ msgstr ""
 
 #: src/index.html:265
 msgid "Tree"
-msgstr ""
+msgstr "Strom"
 
 #: src/index.html:48 src/index.html:109
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: src/index.html:419
 msgid "Unable to communicate with OSTree"
@@ -261,7 +267,7 @@ msgstr ""
 
 #: src/index.html:303
 msgid "Version"
-msgstr ""
+msgstr "Verzia"
 
 #: src/index.html:282
 msgid "When"
@@ -269,89 +275,8 @@ msgstr ""
 
 #: src/client.js:64
 msgid "Writing objects"
-msgstr ""
+msgstr "Zapisovanie objektov"
 
 #: src/index.html:186
 msgid "at"
-msgstr ""
-
-#~ msgid "$0 hour"
-#~ msgid_plural "$0 hours"
-#~ msgstr[0] "ordu $0"
-#~ msgstr[1] "$0 ordu"
-
-#~ msgid "$0 minute"
-#~ msgid_plural "$0 minutes"
-#~ msgstr[0] "minutu $0"
-#~ msgstr[1] "$0 minutu"
-
-#~ msgid "$0 month"
-#~ msgid_plural "$0 months"
-#~ msgstr[0] "hilabete $0"
-#~ msgstr[1] "$0 hilabete"
-
-#~ msgid "32 KiB"
-#~ msgstr "32 KiB"
-
-#~ msgid "4 KiB"
-#~ msgstr "4 KiB"
-
-#~ msgid "64 KiB"
-#~ msgstr "64 KiB"
-
-#~ msgid "8 KiB"
-#~ msgstr "8 KiB"
-
-#~ msgid "802.3ad"
-#~ msgstr "802.3ad"
-
-#~ msgid "ARP"
-#~ msgstr "ARP"
-
-#~ msgid "About Cockpit"
-#~ msgstr "Cockpiti buruz"
-
-#~ msgid "Accounts"
-#~ msgstr "Kontuak"
-
-#~ msgid "Add New User"
-#~ msgstr "Gehitu erabiltzaile berria"
-
-#~ msgid "Add User"
-#~ msgstr "Gehitu erabiltzailea"
-
-#~ msgid "Automatic Updates"
-#~ msgstr "Eguneratze automatikoa"
-
-#~ msgid "Azure"
-#~ msgstr "Azure"
-
-#~ msgid "BIOS"
-#~ msgstr "BIOS"
-
-#~ msgid "BIOS date"
-#~ msgstr "BIOS data"
-
-#~ msgid "BIOS version"
-#~ msgstr "BIOS bertsioa"
-
-#~ msgid "Bond"
-#~ msgstr "Bond"
-
-#~ msgid "Bond Settings"
-#~ msgstr "Bond ezarpenak"
-
-#~ msgid "Boot Order:"
-#~ msgstr "Abio ordena:"
-
-#~ msgid "Bridge"
-#~ msgstr "Bridge"
-
-#~ msgid "Bridge Settings"
-#~ msgstr "Bridge ezarpenak"
-
-#~ msgid "unknown"
-#~ msgstr "ezezaguna"
-
-#~ msgid "yes"
-#~ msgstr "bai"
+msgstr "na"

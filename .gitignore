@@ -9,7 +9,10 @@ dist/
 package-lock.json
 Test*FAIL*
 bots/
+src/lib/
 test/common/
 test/images/
+*.mo
 *.pot
 POTFILES*
+tmp/weblate-repo
